@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --bgcolor:#e4ebfc;
+  --main-text-color:#333333;
+  --text-color:#828286;
+}
+
+html{
+  font-size: 62.5%;
+
+}
+h1,h2,h3,h4,h5,h6{
+  color: #333333;
+}
+
+.topnav{
+  background-color: palevioletred;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: -0.5rem;
+}
+.bg-nav{
+  background-color: var(--bgcolor);
+  padding: 2rem 0px;
+  
+}
+
+.navheading {
+  font-size: 2.5rem!important;
+  font-weight: lighter;
+}
+
+.navbar{
+  font-size: 1.5rem!important;
+
+ 
+}
+.links{
+  text-transform: capitalize!important;
+  font-size: 1.75rem;;
+  font-weight: lighter;
+  margin: 0rem 1.2rem!important;
+}
+.btnstyle{
+  padding: 0rem 1.5rem!important;
+ border-radius: 30%!important;
+  margin: 0rem 1.5rem!important;
+  font-size: 1.5rem!important;
+  background-color: blueviolet!important;
+  border: none!important;
+  
+}
+
+.btnstyle:hover{
+  background-color: whitesmoke!important;
+  color: #333333!important;
+  transition: 0.3s all ease-in;
+  border: none!important;
+}
+
+/* // hero section */
+
+.mainhero{
+  margin:15% auto!important;
+
+}
+
+.mainhero h1{
+  font-size: 6rem!important;
+  font-weight: bold;
+}
+
+.mainhero p{
+  font-size: 1.5rem!important;
+  font-weight: lighter!important;
+  line-height: 2.5rem;
+  color: #333333;
+}
+
+.btnstyle1{
+  padding:  1rem!important;
+ border-radius: 10%!important;
+  margin: 0.5rem 1.5rem!important;
+  font-size: 1.5rem!important;
+  width: 50%;
+}
+
+.btnstyle1:hover{
+  background-color: whitesmoke!important;
+  color: #333333!important;
+  transition: 0.3s all ease-in;
+}
+
+
+
+/* popular products */
+.colthhead{
+  margin-top: 180px!important;
+  font-size: 50px;
+}
+.colthhead h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
